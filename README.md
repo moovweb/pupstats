@@ -24,6 +24,6 @@ Setting up Rsyslog
 
 add lines similar to the following to your rsyslog.conf
 
-  if $programname == 'puppet-agent' then @MY_GRAPHITE_MACHINE:2515
-  if $programname == 'puppet-master' then @MY_GRAPHITE_MACHINE:2515
+    if $programname == 'puppet-agent' then @MY_GRAPHITE_MACHINE:2515
+    if $programname == 'puppet-master' then @MY_GRAPHITE_MACHINE:2515
 
