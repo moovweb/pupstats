@@ -1,0 +1,5 @@
+.rvmrc
+pupstats*.gem
+.bundle
+vendor
+Gemfile.lock
